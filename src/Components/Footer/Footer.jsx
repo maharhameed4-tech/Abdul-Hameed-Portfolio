@@ -21,7 +21,7 @@ function Footer() {
         <div className="flex justify-center gap-6 mt-6 text-3xl">
 
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/maharhameed4-tech/Abdul-Hameed-Portfolio"
             target="_blank"
             rel="noreferrer"
           >
@@ -29,7 +29,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR_USERNAME"
+            href="https://www.linkedin.com/in/hameed-mahar-538918316?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noreferrer"
           >

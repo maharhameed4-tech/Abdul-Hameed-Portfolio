@@ -76,11 +76,11 @@ function Hero() {
 
           <div className="flex gap-5 mt-8 text-3xl">
 
-            <a href="#">
+            <a href="https://github.com/maharhameed4-tech/Abdul-Hameed-Portfolio" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/hameed-mahar-538918316?utm_source=share_via&utm_content=profile&utm_medium=member_android">
               <FaLinkedin />
             </a>
 

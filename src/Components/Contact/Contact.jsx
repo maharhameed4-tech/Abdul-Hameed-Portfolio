@@ -89,11 +89,11 @@ function Contact() {
 
             <div className="flex gap-6 text-3xl">
 
-              <a href="https://github.com/yourusername">
+              <a href="https://github.com/maharhameed4-tech/Abdul-Hameed-Portfolio">
                 <FaGithub />
               </a>
 
-              <a href="https://linkedin.com/in/yourusername">
+              <a href="https://www.linkedin.com/in/hameed-mahar-538918316?utm_source=share_via&utm_content=profile&utm_medium=member_android">
                 <FaLinkedin />
               </a>
 

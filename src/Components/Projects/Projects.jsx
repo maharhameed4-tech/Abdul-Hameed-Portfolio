@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
@@ -8,45 +8,42 @@ const projects = [
       "AI-powered platform for generating 2D & 3D house and hospital layouts using MERN Stack.",
     image: "../src/assets/Images/projects/auto-plan-ai.png",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Three.js"],
-    github: "https://github.com/yourusername/auto-plan-ai",
-    live: "#",
+
   },
   {
-    title: "Smart Attendance System",
+    title: "Quiz App System",
     description:
-      "MERN Stack attendance management system with authentication and dashboard.",
-    image: "../assets/Images/projects/attendance-system.png",
-    technologies: ["React", "Express", "MongoDB"],
-    github: "https://github.com/yourusername/attendance-system",
-    live: "#",
+      "Interactive Quiz Application with user authentication and online test conducting features.",
+    image: "../src/assets/Images/projects/quiz.png",
+    technologies: ["HTML", "CSS","JavaScript", "PHP", "MYSQL"],
+    
   },
   {
-    title: "Weather App",
+    title: "School Fees Management System",
     description:
-      "Weather application using OpenWeather API with responsive UI.",
-    image: "../src/assets/Images/projects/weather-app.png",
-    technologies: ["HTML", "CSS", "JavaScript", "API"],
-    github: "#",
-    live: "#",
+      "Comprehensive system for managing school fees and payments.",
+    image: "../src/assets/Images/projects/fees.png",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MYSQL"],
+    
   },
-  {
-    title: "Image Gallery",
-    description:
-      "Responsive Image Gallery with API integration and search functionality.",
-    image: "../assets/Images/projects/image-gallery.png",
-    technologies: ["React", "API"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Todo App",
-    description:
-      "Simple CRUD Todo Application using React and Local Storage.",
-    image: "../assets/Images/projects/todo-app.png",
-    technologies: ["React", "JavaScript"],
-    github: "#",
-    live: "#",
-  },
+  // {
+  //   title: "Image Gallery",
+  //   description:
+  //     "Responsive Image Gallery with API integration and search functionality.",
+  //   image: "../assets/Images/projects/image-gallery.png",
+  //   technologies: ["React", "API"],
+  //   github: "#",
+  
+  // },
+  // {
+  //   title: "Todo App",
+  //   description:
+  //     "Simple CRUD Todo Application using React and Local Storage.",
+  //   image: "../assets/Images/projects/todo-app.png",
+  //   technologies: ["React", "JavaScript"],
+  //   github: "#",
+    
+  // },
 ];
 
 function Projects() {
@@ -108,7 +105,7 @@ function Projects() {
 
                 <div className="flex gap-4 mt-6">
 
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noreferrer"
@@ -116,9 +113,9 @@ function Projects() {
                   >
                     <FaGithub />
                     GitHub
-                  </a>
+                  </a> */}
 
-                  <a
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noreferrer"
@@ -126,7 +123,7 @@ function Projects() {
                   >
                     <FaExternalLinkAlt />
                     Live
-                  </a>
+                  </a> */}
 
                 </div>
 

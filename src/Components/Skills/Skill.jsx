@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 
 function Skills() {
   const skills = [
-    { name: "HTML5", level: 95 },
-    { name: "CSS3", level: 90 },
-    { name: "Bootstrap5", level: 90 },
-    { name: "JavaScript", level: 88 },
+    { name: "HTML5", level: 100 },
+    { name: "CSS3", level: 100 },
+    { name: "Bootstrap5", level: 100 },
+    { name: "JavaScript", level: 95 },
     { name: "React.JS", level: 85 },
     { name: "JQuery", level: 95 },
-    { name: "PHP", level: 90 },
+    { name: "PHP", level: 100 },
     { name: "Laravel12", level: 80 },
-    { name: "MySQL", level: 95 },
+    { name: "MySQL", level: 100 },
     { name: "Git & GitHub", level: 85 },
     { name: "REST API", level: 82 },
   ];
