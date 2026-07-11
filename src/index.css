@@ -9,7 +9,10 @@ body{
   background:#0f172a;
   color:white;
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 .container-custom{
   max-width:1200px;
   margin:auto;
