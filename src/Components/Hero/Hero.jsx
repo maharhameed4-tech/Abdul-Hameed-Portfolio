@@ -7,7 +7,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/Images/profile.png";
 
 function Hero() {
   return (
@@ -58,7 +58,7 @@ function Hero() {
           <div className="flex gap-4 mt-8 flex-wrap">
 
             <a
-              href="../src/assets/Resume/CV Resume.pdf"
+              href="../public/Resume/CV Resume.pdf"
               className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg flex items-center gap-2"
             >
               <FaDownload />
