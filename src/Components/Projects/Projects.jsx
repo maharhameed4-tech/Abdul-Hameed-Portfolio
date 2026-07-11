@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import autoPlan from "../../assets/Images/projects/auto-plan-ai.png";
+import quiz from "../../assets/Images/projects/quiz.png";
+import fees from "../../assets/Images/projects/fees.png";
 // import { FaGithub } from "react-icons/fa";
 
 const projects = [
@@ -6,7 +9,7 @@ const projects = [
     title: "Auto Plan AI",
     description:
       "AI-powered platform for generating 2D & 3D house and hospital layouts using MERN Stack.",
-    image: "../src/assets/Images/projects/auto-plan-ai.png",
+    image: autoPlan,
     technologies: ["React", "Node.js", "MongoDB", "Express", "Three.js"],
 
   },
@@ -14,7 +17,7 @@ const projects = [
     title: "Quiz App System",
     description:
       "Interactive Quiz Application with user authentication and online test conducting features.",
-    image: "../src/assets/Images/projects/quiz.png",
+    image: quiz,
     technologies: ["HTML", "CSS","JavaScript", "PHP", "MYSQL"],
     
   },
@@ -22,7 +25,7 @@ const projects = [
     title: "School Fees Management System",
     description:
       "Comprehensive system for managing school fees and payments.",
-    image: "../src/assets/Images/projects/fees.png",
+    image: fees,
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MYSQL"],
     
   },
