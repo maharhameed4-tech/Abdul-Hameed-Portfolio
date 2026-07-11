@@ -12,9 +12,9 @@ import profile from "../../assets/Images/profile.png";
 function Hero() {
   return (
     <section
-      id="home"
-      className="min-h-screen flex items-center bg-slate-900 text-white"
-    >
+  id="home"
+  className="min-h-screen flex items-center bg-slate-900 text-white pt-24 md:pt-20"
+   >  
       <div className="container-custom grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left Side */}
